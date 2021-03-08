@@ -12,5 +12,5 @@ export default function Home({ places }: MapProps) {
 export const getStaticProps: GetStaticProps = async () => {
   const { places } = await client.request<GetPlacesQuery>(GET_PLACES);
 
-  return { props: { places } };
+  return { revalidate: 5, props: { places } };
 };
