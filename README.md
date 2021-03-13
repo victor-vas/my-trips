@@ -1,6 +1,42 @@
-## What is inside?
+<h1 align="center">
+  My Trips
+</h1>
 
-This project uses lot of stuff as:
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/victor-vas/my-trips">
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/victor-vas/my-trips">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/victor-vas/my-trips">
+
+  <a href="https://github.com/victor-vas/my-trips/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/victor-vas/my-trips">
+  </a>
+
+  <a href="https://github.com/victor-vas/my-trips/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/victor-vas/my-trips">
+  </a>
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/victor-vas/my-trips">
+</p>
+
+<p align="center">
+  <a href="#rocket-what-is-inside">What is inside?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+
+<p align="center">
+  <img alt="Search Github Users" src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1615669898/portfolio/cover_hiwwkk.png">
+</p>
+
+<p align="center">
+  <a href="https://my-trips-victor-vas.netlify.app/" target="_blank">
+    <img alt="Demo on Vercel" src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1605832650/github/demo-on-vercel_lx7fan.svg">
+  </a>
+</p>
+
+## :rocket: What is inside?
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
@@ -10,41 +46,32 @@ This project uses lot of stuff as:
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [leaflet](https://leafletjs.com/index.html)
+- [react-leaflet](https://react-leaflet.js.org/)
+- [next-pwa](https://github.com/shadowwalker/next-pwa#readme)
+- [next-seo](https://github.com/garmeeh/next-seo)
+- [nextjs-progressbar](https://github.com/apal21/nextjs-progressbar#readme)
 
-## Getting Started
-
-First, run the development server:
+## :information_source: How To Use
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone https://github.com/victor-vas/my-trips my-trips
+
+# Go into the repository
+$ cd my-trips
+
+# Install dependencies
+$ yarn
+
+# Run the app
+$ yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :memo: License
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+No licenses.
 
-## Commands
+---
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with ♥ by Victor Vasconcelos :wave: [See my linkedin!](https://www.linkedin.com/in/victor-vasconcelos-599b941a5/)

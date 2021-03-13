@@ -11,16 +11,16 @@ export default function HomeTemplate({ places }: MapProps) {
     <>
       <NextSeo
         title="My Trips"
-        description="A simple project to show in a map the places that I went and show more informations and photos when clicked."
-        canonical="http://"
+        description="Um projeto simples de mostrar em um mapa os lugares que visitei e mostrar mais informações e fotos quando clicado."
+        canonical="https://my-trips-victor-vas.vercel.app/"
         openGraph={{
-          url: 'http://',
+          url: 'https://my-trips-victor-vas.vercel.app/',
           title: 'My Trips',
           description:
-            'A simple project to show in a map the places that I went and show more informations and photos when clicked.',
+            'Um projeto simples de mostrar em um mapa os lugares que visitei e mostrar mais informações e fotos quando clicado.',
           images: [
             {
-              url: 'https://my-trips.victor-vas.vercel.app/img/cover.png',
+              url: 'https://my-trips-victor-vas.vercel.app/img/cover.png',
               width: 1280,
               height: 720,
               alt: 'My Trips',
@@ -29,8 +29,8 @@ export default function HomeTemplate({ places }: MapProps) {
           site_name: 'My Trips',
         }}
       />
-      <LinkWrapper href="/about">
-        <InfoOutline size={32} aria-label="About" />
+      <LinkWrapper href="/sobre">
+        <InfoOutline size={32} aria-label="Sobre" />
       </LinkWrapper>
       <Map places={places} />
     </>

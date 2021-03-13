@@ -75,7 +75,7 @@ const Map = ({ places }: MapProps) => {
               title={name}
               eventHandlers={{
                 click: () => {
-                  router.push(`/place/${slug}`);
+                  router.push(`/local/${slug}`);
                 },
               }}
             />
