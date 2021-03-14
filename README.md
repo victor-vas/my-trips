@@ -27,11 +27,11 @@
 </p>
 
 <p align="center">
-  <img alt="Search Github Users" src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1615669898/portfolio/cover_hiwwkk.png">
+  <img alt="Search Github Users" src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1615764084/portfolio/my-trips_rhevyq.png">
 </p>
 
 <p align="center">
-  <a href="https://my-trips-victor-vas.netlify.app/" target="_blank">
+  <a href="https://my-trips-victor-vas.vercel.app/" target="_blank">
     <img alt="Demo on Vercel" src="https://res.cloudinary.com/dg4rnkej8/image/upload/v1605832650/github/demo-on-vercel_lx7fan.svg">
   </a>
 </p>

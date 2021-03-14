@@ -20,7 +20,7 @@ export default function HomeTemplate({ places }: MapProps) {
             'Um projeto simples de mostrar em um mapa os lugares que visitei e mostrar mais informações e fotos quando clicado.',
           images: [
             {
-              url: 'https://my-trips-victor-vas.vercel.app/img/cover.png',
+              url: 'https://my-trips-victor-vas.vercel.app/img/my-trips.png',
               width: 1280,
               height: 720,
               alt: 'My Trips',
